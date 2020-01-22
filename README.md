@@ -29,14 +29,14 @@ c := lino.New(&Config{
 
 // only message
 c.Notify(&lino.RequestNotify{
-    Message: "This is message.",
+    Message: "message",
 })
 
 // message with images
 imageThumbnail := "https://example.com/foo.jpg"
 imageFullsize := "https://exmaple.com/bar.jpg"
 c.Notify(&lino.RequestNotify{
-    Message:        "This is message.",
+    Message:        "message",
     ImageThumbnail: &imageThumbnail
     ImageFullsize:  &imageFullsize,
 })
