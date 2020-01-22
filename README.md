@@ -2,6 +2,9 @@
 
 The Line notification library for Golang.
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/tishibas/lino)](https://goreportcard.com/report/github.com/tishibas/lino)
+[![Coverage Status](https://coveralls.io/repos/github/tishibas/lino/badge.svg?branch=master)](https://coveralls.io/github/tishibas/lino?branch=master)
+
 - Line Notify API Document
     - [English](https://notify-bot.line.me/doc/en/)
     - [日本語](https://notify-bot.line.me/doc/ja/)
